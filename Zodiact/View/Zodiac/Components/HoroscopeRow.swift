@@ -28,6 +28,7 @@ struct HoroscopeRow: View {
                 Text(horoscope.nickname)
                     .font(.system(.subheadline, design: .rounded))
                     .padding(.top, 1)
+                    .fontWeight(.semibold)
             }
         }
     }

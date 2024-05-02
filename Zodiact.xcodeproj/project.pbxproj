@@ -17,11 +17,11 @@
 		52DF2BB92BE3394000172E9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BB82BE3394000172E9A /* HomeView.swift */; };
 		52DF2BBD2BE3396A00172E9A /* ZodiacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BBC2BE3396A00172E9A /* ZodiacView.swift */; };
 		52DF2BBF2BE3397600172E9A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BBE2BE3397600172E9A /* SettingView.swift */; };
-		52DF2BC12BE3532E00172E9A /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BC02BE3532D00172E9A /* TestingView.swift */; };
 		52DF2BC32BE3690000172E9A /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BC22BE3690000172E9A /* Horoscope.swift */; };
 		52DF2BC62BE36CC300172E9A /* HoroscopeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BC52BE36CC300172E9A /* HoroscopeRow.swift */; };
 		52DF2BC82BE36F9800172E9A /* HoroscopeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BC72BE36F9800172E9A /* HoroscopeDetail.swift */; };
 		52DF2BCA2BE3704600172E9A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BC92BE3704600172E9A /* HeaderView.swift */; };
+		52DF2BCE2BE37D6B00172E9A /* DummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BCD2BE37D6B00172E9A /* DummyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		52DF2BB82BE3394000172E9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		52DF2BBC2BE3396A00172E9A /* ZodiacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacView.swift; sourceTree = "<group>"; };
 		52DF2BBE2BE3397600172E9A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
-		52DF2BC02BE3532D00172E9A /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 		52DF2BC22BE3690000172E9A /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
 		52DF2BC52BE36CC300172E9A /* HoroscopeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeRow.swift; sourceTree = "<group>"; };
 		52DF2BC72BE36F9800172E9A /* HoroscopeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeDetail.swift; sourceTree = "<group>"; };
 		52DF2BC92BE3704600172E9A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		52DF2BCD2BE37D6B00172E9A /* DummyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,6 @@
 				52DF2BB52BE338D000172E9A /* Setting */,
 				52DF2BB42BE338BE00172E9A /* Zodiac */,
 				52DF2BB32BE338B500172E9A /* Home */,
-				52DF2BC02BE3532D00172E9A /* TestingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				52DF2BB82BE3394000172E9A /* HomeView.swift */,
+				52DF2BCD2BE37D6B00172E9A /* DummyView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -264,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52DF2BBD2BE3396A00172E9A /* ZodiacView.swift in Sources */,
+				52DF2BCE2BE37D6B00172E9A /* DummyView.swift in Sources */,
 				52DF2BC82BE36F9800172E9A /* HoroscopeDetail.swift in Sources */,
 				52DF2BC62BE36CC300172E9A /* HoroscopeRow.swift in Sources */,
 				52DF2BB92BE3394000172E9A /* HomeView.swift in Sources */,
@@ -271,7 +272,6 @@
 				52DF2BB72BE338F600172E9A /* MainView.swift in Sources */,
 				52DF2B932BE3312900172E9A /* ZodiactApp.swift in Sources */,
 				52DF2BCA2BE3704600172E9A /* HeaderView.swift in Sources */,
-				52DF2BC12BE3532E00172E9A /* TestingView.swift in Sources */,
 				52DF2BAA2BE3326600172E9A /* Zodiac.swift in Sources */,
 				52DF2BAE2BE3344D00172E9A /* ZodiacVM.swift in Sources */,
 				52DF2BC32BE3690000172E9A /* Horoscope.swift in Sources */,

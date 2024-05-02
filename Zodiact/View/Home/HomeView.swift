@@ -82,6 +82,7 @@ struct HomeView: View {
                     }
                 } label: {
                     Text(zodiacVM.displayedZodiacText.isEmpty ? "Generate" : "Generate Again")
+                        .textCase(.uppercase)
                         .font(.title2)
                         .fontWeight(.bold)
                 }
