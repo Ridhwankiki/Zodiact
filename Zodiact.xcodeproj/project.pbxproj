@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		52DF2B932BE3312900172E9A /* ZodiactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2B922BE3312900172E9A /* ZodiactApp.swift */; };
-		52DF2B952BE3312900172E9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2B942BE3312900172E9A /* ContentView.swift */; };
 		52DF2B972BE3312B00172E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DF2B962BE3312B00172E9A /* Assets.xcassets */; };
 		52DF2B9A2BE3312B00172E9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DF2B992BE3312B00172E9A /* Preview Assets.xcassets */; };
+		52DF2BA82BE3323100172E9A /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 52DF2BA72BE3323100172E9A /* GoogleGenerativeAI */; };
+		52DF2BAA2BE3326600172E9A /* Zodiac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BA92BE3326600172E9A /* Zodiac.swift */; };
+		52DF2BAE2BE3344D00172E9A /* ZodiacVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BAD2BE3344D00172E9A /* ZodiacVM.swift */; };
+		52DF2BB72BE338F600172E9A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BB62BE338F600172E9A /* MainView.swift */; };
+		52DF2BB92BE3394000172E9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BB82BE3394000172E9A /* HomeView.swift */; };
+		52DF2BBD2BE3396A00172E9A /* ZodiacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BBC2BE3396A00172E9A /* ZodiacView.swift */; };
+		52DF2BBF2BE3397600172E9A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BBE2BE3397600172E9A /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52DF2B8F2BE3312900172E9A /* Zodiact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zodiact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DF2B922BE3312900172E9A /* ZodiactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiactApp.swift; sourceTree = "<group>"; };
-		52DF2B942BE3312900172E9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52DF2B962BE3312B00172E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52DF2B992BE3312B00172E9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52DF2BA92BE3326600172E9A /* Zodiac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiac.swift; sourceTree = "<group>"; };
+		52DF2BAD2BE3344D00172E9A /* ZodiacVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacVM.swift; sourceTree = "<group>"; };
+		52DF2BB62BE338F600172E9A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		52DF2BB82BE3394000172E9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		52DF2BBC2BE3396A00172E9A /* ZodiacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacView.swift; sourceTree = "<group>"; };
+		52DF2BBE2BE3397600172E9A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DF2BA82BE3323100172E9A /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +63,10 @@
 		52DF2B912BE3312900172E9A /* Zodiact */ = {
 			isa = PBXGroup;
 			children = (
+				52DF2BB22BE338A300172E9A /* MainView */,
+				52DF2BA52BE3321E00172E9A /* ViewModel */,
+				52DF2BA42BE3321800172E9A /* Services */,
+				52DF2BA32BE3320F00172E9A /* Model */,
 				52DF2BA02BE3313800172E9A /* App */,
 				52DF2BA12BE3313E00172E9A /* View */,
 				52DF2BA22BE3314300172E9A /* Resources */,
@@ -78,7 +94,9 @@
 		52DF2BA12BE3313E00172E9A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				52DF2B942BE3312900172E9A /* ContentView.swift */,
+				52DF2BB52BE338D000172E9A /* Setting */,
+				52DF2BB42BE338BE00172E9A /* Zodiac */,
+				52DF2BB32BE338B500172E9A /* Home */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,6 +107,61 @@
 				52DF2B962BE3312B00172E9A /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		52DF2BA32BE3320F00172E9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52DF2BA92BE3326600172E9A /* Zodiac.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52DF2BA42BE3321800172E9A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52DF2BA52BE3321E00172E9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52DF2BAD2BE3344D00172E9A /* ZodiacVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52DF2BB22BE338A300172E9A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				52DF2BB62BE338F600172E9A /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		52DF2BB32BE338B500172E9A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				52DF2BB82BE3394000172E9A /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		52DF2BB42BE338BE00172E9A /* Zodiac */ = {
+			isa = PBXGroup;
+			children = (
+				52DF2BBC2BE3396A00172E9A /* ZodiacView.swift */,
+			);
+			path = Zodiac;
+			sourceTree = "<group>";
+		};
+		52DF2BB52BE338D000172E9A /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				52DF2BBE2BE3397600172E9A /* SettingView.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +180,9 @@
 			dependencies = (
 			);
 			name = Zodiact;
+			packageProductDependencies = (
+				52DF2BA72BE3323100172E9A /* GoogleGenerativeAI */,
+			);
 			productName = Zodiact;
 			productReference = 52DF2B8F2BE3312900172E9A /* Zodiact.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +211,9 @@
 				Base,
 			);
 			mainGroup = 52DF2B862BE3312900172E9A;
+			packageReferences = (
+				52DF2BA62BE3323100172E9A /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = 52DF2B902BE3312900172E9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,8 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DF2B952BE3312900172E9A /* ContentView.swift in Sources */,
+				52DF2BBD2BE3396A00172E9A /* ZodiacView.swift in Sources */,
+				52DF2BB92BE3394000172E9A /* HomeView.swift in Sources */,
+				52DF2BBF2BE3397600172E9A /* SettingView.swift in Sources */,
+				52DF2BB72BE338F600172E9A /* MainView.swift in Sources */,
 				52DF2B932BE3312900172E9A /* ZodiactApp.swift in Sources */,
+				52DF2BAA2BE3326600172E9A /* Zodiac.swift in Sources */,
+				52DF2BAE2BE3344D00172E9A /* ZodiacVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +450,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52DF2BA62BE3323100172E9A /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-gemini/generative-ai-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52DF2BA72BE3323100172E9A /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52DF2BA62BE3323100172E9A /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52DF2B872BE3312900172E9A /* Project object */;
 }
