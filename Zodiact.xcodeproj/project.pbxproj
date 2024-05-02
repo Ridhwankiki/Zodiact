@@ -17,6 +17,8 @@
 		52DF2BB92BE3394000172E9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BB82BE3394000172E9A /* HomeView.swift */; };
 		52DF2BBD2BE3396A00172E9A /* ZodiacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BBC2BE3396A00172E9A /* ZodiacView.swift */; };
 		52DF2BBF2BE3397600172E9A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BBE2BE3397600172E9A /* SettingView.swift */; };
+		52DF2BC12BE3532E00172E9A /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BC02BE3532D00172E9A /* TestingView.swift */; };
+		52DF2BC32BE3690000172E9A /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF2BC22BE3690000172E9A /* Horoscope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		52DF2BB82BE3394000172E9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		52DF2BBC2BE3396A00172E9A /* ZodiacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacView.swift; sourceTree = "<group>"; };
 		52DF2BBE2BE3397600172E9A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		52DF2BC02BE3532D00172E9A /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		52DF2BC22BE3690000172E9A /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +67,14 @@
 		52DF2B912BE3312900172E9A /* Zodiact */ = {
 			isa = PBXGroup;
 			children = (
-				52DF2BB22BE338A300172E9A /* MainView */,
-				52DF2BA52BE3321E00172E9A /* ViewModel */,
-				52DF2BA42BE3321800172E9A /* Services */,
-				52DF2BA32BE3320F00172E9A /* Model */,
 				52DF2BA02BE3313800172E9A /* App */,
-				52DF2BA12BE3313E00172E9A /* View */,
-				52DF2BA22BE3314300172E9A /* Resources */,
+				52DF2BB22BE338A300172E9A /* MainView */,
+				52DF2BA32BE3320F00172E9A /* Model */,
 				52DF2B982BE3312B00172E9A /* Preview Content */,
+				52DF2BA22BE3314300172E9A /* Resources */,
+				52DF2BA42BE3321800172E9A /* Services */,
+				52DF2BA12BE3313E00172E9A /* View */,
+				52DF2BA52BE3321E00172E9A /* ViewModel */,
 			);
 			path = Zodiact;
 			sourceTree = "<group>";
@@ -97,6 +101,7 @@
 				52DF2BB52BE338D000172E9A /* Setting */,
 				52DF2BB42BE338BE00172E9A /* Zodiac */,
 				52DF2BB32BE338B500172E9A /* Home */,
+				52DF2BC02BE3532D00172E9A /* TestingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				52DF2BA92BE3326600172E9A /* Zodiac.swift */,
+				52DF2BC22BE3690000172E9A /* Horoscope.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -245,8 +251,10 @@
 				52DF2BBF2BE3397600172E9A /* SettingView.swift in Sources */,
 				52DF2BB72BE338F600172E9A /* MainView.swift in Sources */,
 				52DF2B932BE3312900172E9A /* ZodiactApp.swift in Sources */,
+				52DF2BC12BE3532E00172E9A /* TestingView.swift in Sources */,
 				52DF2BAA2BE3326600172E9A /* Zodiac.swift in Sources */,
 				52DF2BAE2BE3344D00172E9A /* ZodiacVM.swift in Sources */,
+				52DF2BC32BE3690000172E9A /* Horoscope.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

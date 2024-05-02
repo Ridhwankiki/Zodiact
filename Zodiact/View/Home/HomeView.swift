@@ -102,6 +102,7 @@ struct HomeView: View {
 extension HomeView {
 
     func generateZodiac() {
+        zodiacVM.displayedZodiacText = ""
         Task {
             await zodiacVM.generateZodiac(zodiac: selectedZodiac, topic: selectedTopic)
         }

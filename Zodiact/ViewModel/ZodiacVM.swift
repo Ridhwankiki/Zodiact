@@ -32,7 +32,7 @@ class ZodiacVM: ObservableObject {
             return
         }
         let model = GenerativeModel(name: "gemini-pro", apiKey: apiKey)
-        let zodiacString = topic.rawValue.capitalized
+        let zodiacString = zodiac.rawValue.capitalized
         let topicString = topic.rawValue.capitalized
         
 //        let prompt = "Berikan saya ramalan hari ini tentang \(topicString) dari zodiac \(zodiacString) beserta saran. Maksimal 50 kata"
@@ -44,6 +44,7 @@ class ZodiacVM: ObservableObject {
                 zodiacText = text
                 startTypewriterEffect()
             }
+            print(prompt)
         } catch {
             errorMessage = "Failed to generate zodiac: \(error.localizedDescription)"
         }
