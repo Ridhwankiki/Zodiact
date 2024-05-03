@@ -18,17 +18,18 @@ struct HoroscopeDetail: View {
                 
                 HStack {
                     VStack (alignment: .leading, spacing: 24) {
-                        Text("Zodiac Name:")
+                        Text(horoscope.name.uppercased())
                             .font(.largeTitle)
                             .fontWeight(.heavy)
+                            .padding(.vertical, 8)
+                            .background(Color.purple.frame(height: 6).offset(y: 24))
                         
-                        Text(horoscope.name)
-                            .font(.largeTitle)
-                            .fontWeight(.heavy)
+                        Text(horoscope.nickname.capitalized)
+                            .font(.title)
+                        
                         Text(horoscope.desc)
-                            .font(.subheadline)
+                            .font(.headline)
                     }
-                    Spacer()
                 }
                 .padding()
             }

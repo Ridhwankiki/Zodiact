@@ -26,5 +26,4 @@ enum Topic: String, CaseIterable {
     case keuangan = "Keuangan"
     case kesehatan = "Kesehatan"
     case karir = "Karir"
-    case asmara = "Asmara"
 }
